@@ -1,0 +1,15 @@
+{% extends 'address_book.html' %}
+{% from 'bootstrap4/form.html' import render_form %}
+
+{% block title %}
+Add Address
+{% endblock %}
+
+{% block main %}
+
+<fieldset>
+        <legend>Add an Address</legend>
+        {{ render_form(form) }}
+</fieldset>
+
+{% endblock %}
